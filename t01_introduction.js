@@ -1,7 +1,8 @@
 /****************************
 Name of task: Introduction
 ****************************/
-console.log("Running t01_introduction.js")
+console.log("Running t01_introduction.js");
+console.log("utftrfy")
 
 //Variables
 
