@@ -1,3 +1,4 @@
+/* Paste your code from task 1 here */
 /****************************
 Name of task: Introduction
 ****************************/
@@ -16,4 +17,4 @@ console.log("utftrfy")
 
 /*************************** 
  Functions
-***************************//* Paste your code from task 1 here */
+***************************/ 
