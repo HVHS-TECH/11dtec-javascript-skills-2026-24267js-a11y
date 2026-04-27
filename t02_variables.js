@@ -3,12 +3,12 @@
 Name of task: Variables
 ****************************/
 console.log("Running t012_variables.js");
-console.log("pocketMoney: $" + userMoney);
+console.log("Hi+name+As of+year you are+age years old you have+money dollars);
 
 //Variables
 var name = "James"
 var age = 26,
-let userMoney = 100;
+let money = 100;
 var year = 2026,
 
 /****************************
