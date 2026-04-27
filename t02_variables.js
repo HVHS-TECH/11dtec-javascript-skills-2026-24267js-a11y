@@ -3,7 +3,7 @@
 Name of task: Variables
 ****************************/
 console.log("Running t012_variables.js");
-console.log("Butter")
+console.log("pocketMoney: $" + userMoney);
 
 //Variables
 var name = "James"
