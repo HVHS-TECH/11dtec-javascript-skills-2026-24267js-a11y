@@ -18,3 +18,7 @@ console.log("Butter")
 /*************************** 
  Functions
 ***************************/ 
+var person = {
+  Name: "James",
+  age: 26,
+}
