@@ -22,3 +22,4 @@ var person = {
   Name: "James",
   age: 26,
 }
+var year = 2026,
