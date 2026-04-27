@@ -6,7 +6,10 @@ console.log("Running t012_variables.js");
 console.log("Butter")
 
 //Variables
-
+var name = "James"
+var age = 26,
+let userMoney = 100;
+var year = 2026,
 
 /****************************
   Main code
@@ -18,8 +21,3 @@ console.log("Butter")
 /*************************** 
  Functions
 ***************************/ 
-var person = {
-  Name: "James",
-  age: 26,
-}
-var year = 2026,
