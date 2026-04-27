@@ -3,7 +3,6 @@
 Name of task: Variables
 ****************************/
 console.log("Running t012_variables.js");
-console.log("Hi " + name + ", as of " + year + " you are " + age + " years old and you have $" + money + " dollars.");
 
 //Variables
 var name = "James";
@@ -15,7 +14,7 @@ let money =1000;
 /****************************
   Main code
 ****************************/
-
+console.log("Hi " + name + ", as of " + year + " you are " + age + " years old and you have $" + money + " dollars.");
 
 
 
