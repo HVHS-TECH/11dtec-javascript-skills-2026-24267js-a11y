@@ -10,6 +10,7 @@ var age = 26;
 
 var year = 2026;
 var dateofbirth = 2000;
+age = age + 10;
 let money =1000;
 
 /****************************
