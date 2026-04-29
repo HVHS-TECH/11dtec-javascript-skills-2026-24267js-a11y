@@ -16,7 +16,7 @@ let money =1000;
 /****************************
   Main code
 ****************************/
-console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + and you have $" + money + " dollars.");
+console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + " In 10 years you will be " + (age + 10) + " and you have $" + money + " dollars.");
 
 
 
