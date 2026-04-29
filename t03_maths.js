@@ -13,11 +13,12 @@ var dateofbirth = 2000;
 age = age + 10;
 let money =1000;
 total = money / 2;
+equation = money / 2 + 3;
 
 /****************************
   Main code
 ****************************/
-console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + " In 10 years you will be " + (age + 10) + " and you have $" + money + " dollars+"You spent half of your money, you now have" + (total/2) + "dollars );
+console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + " In 10 years you will be " + (age + 10) + " and you have $" + money + " dollars+"You spent half of your money, you now have" + (total/2) + "dollars"+ " + " Then you get $3, now you have" + (equation = money / 2 + 3));
 
 
 
