@@ -9,12 +9,13 @@ var name = "James";
 var age = 26;
 
 var year = 2026;
+var dateofbirth = 2000;
 let money =1000;
 
 /****************************
   Main code
 ****************************/
-console.log("Hi " + name + ", as of " + year + " you are " + age + " years old and you have $" + money + " dollars.");
+console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + and you have $" + money + " dollars.");
 
 
 
