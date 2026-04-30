@@ -8,7 +8,7 @@ var perimeter = 2 * height + 2 * width;
 
 // Set up the size of the page.
 var height = 8;
-var width = 10
+var width = 10;
 
 // Display the results
 console.log("A area of a piece of paper with a height of "+height+", and a width of "+width+" is "+ area)
