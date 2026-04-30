@@ -18,7 +18,7 @@ equation = money / 2 + 3;
 /****************************
   Main code
 ****************************/
-console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + " In 10 years you will be " + (age + 10) + " and you have $" + money + " dollars+ " + "You spent half of your money, you now have" + (total/2) + "dollars"+ " + "then you get $3, now you have" + (equation = money / 2 + 3) );
+console.log("Hi " + name + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + " In 10 years you will be " + (age + 10) + " and you have $" + money + " dollars+ " + " You spent half of your money, you now have " + (total/2) + "dollars"+ " + " then you get $3, now you have " + (equation = money / 2 + 3) + " dollars." );
 
 
 
