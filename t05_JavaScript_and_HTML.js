@@ -24,6 +24,9 @@ console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML = "<p>Hello " + username + "</p>";
+OUTPUT.innerHTML = "<p>Second Paragraph Line.</p>";
+OUTPUT.innerHTML = "<p>Third Paragraph Line.</p>";
 
 
 
