@@ -15,6 +15,10 @@ let money =1000;
 let total = money / 2;
 let equation = money / 2 + 3;
 
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+OUTPUT.innerHTML = "<p>Hello World!.</p>";
+
 /****************************
   Main code
 ****************************/
@@ -22,11 +26,6 @@ console.log("Running t05_JavaScript_and_HTML.js");
 
 console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spend half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." );
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h2>hello world</h2>";
-OUTPUT.innerHTML = "<p>Hello " + username + "</p>";
-OUTPUT.innerHTML = "<p>Second Paragraph Line.</p>";
-OUTPUT.innerHTML = "<p>Hello World.</p>";
 
 
 
