@@ -17,9 +17,10 @@ let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-OUTPUT.innerHTML = "<h1>GIVE ME FRIED CHICKENNNNNNNNNNNNNNNN!!!!!!!!!!!!!!!!.</h1>";
+OUTPUT.innerHTML = "<h1>ADDED BY JAVASCRIPT.</h1>";
 OUTPUT.innerHTML += "<p>" + "Hello " + username + ", welcome!</p>";
 OUTPUT.innerHTML += "<p>" + "Since you are so rich...." + "</p>";
+OUTPUT.innerHTML += "<p>" + "CAN YOU BUY FRIED CHICKENNNNNNNNNNNNN?!" + "</p>";
 
 
 /****************************
