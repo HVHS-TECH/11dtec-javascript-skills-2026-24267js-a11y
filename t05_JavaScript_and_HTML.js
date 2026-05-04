@@ -19,6 +19,8 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 OUTPUT.innerHTML = "<h1>GIVE ME FRIED CHICKENNNNNNNNNNNNNNNN!!!!!!!!!!!!!!!!.</h1>";
 OUTPUT.innerHTML += "<p>" + "Hello " + username + ", welcome!</p>";
+OUTPUT.innerHTML += "<p>" + "Since you are so rich...." + "</p>";
+
 
 /****************************
   Main code
