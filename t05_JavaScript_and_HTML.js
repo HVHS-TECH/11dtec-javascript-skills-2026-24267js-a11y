@@ -17,7 +17,7 @@ let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-OUTPUT.innerHTML = "<p>Hello World!.</p>";
+OUTPUT.innerHTML = "<h1>HHELLO PERSONNNNNN.</h1>";
 
 /****************************
   Main code
