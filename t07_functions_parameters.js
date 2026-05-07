@@ -24,7 +24,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
   Main code
 ****************************/
-writeline();
+
 OUTPUT.innerHTML = "<h1>ADDED BY JAVASCRIPT.</h1>";
 OUTPUT.innerHTML += "<p>" + "Hello " + username + ", welcome!</p>";
 OUTPUT.innerHTML += "<p>" + "Since you are so rich...." + "</p>";
@@ -46,7 +46,7 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += "<p>Chocolate Bar: " +_chocolatebar+ " Price: $4"</p>";
+    OUTPUT.innerHTML += "<p>Chocolate Bar: " +_chocolatebar+ " Price:$4 </p>";
 
 }
 
