@@ -45,7 +45,7 @@ function writeline() {
   OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
 
-function displayProduct(chocolatebar) {
-    OUTPUT.innerHTML += "<p>We have " + chocolatebar + " in stock!<p/>";
+function displayProduct(_chocolatebar) {
+    
 }
 
