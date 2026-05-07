@@ -46,8 +46,8 @@ function writeline() {
 }
 
 function displayProduct(_chocolatebar,_price,_chips,_price,_drink,_price) {
-    OUTPUT.innerHTML += "<p>" + "Chocolate Bar: " +_chocolatebar+ " Price: $4"</p>";
-    OUTPUT.innerHTML += "<p>" + "Chips: " +_chips+ " Price: $3"</p>";
-    OUTPUT.innerHTML += "<p>" + "Drink: " +_drink+ " Price: $2.50"</p>";
+    OUTPUT.innerHTML += "<p>"  "Chocolate Bar: " +_chocolatebar+ " Price: $4"</p>";
+    OUTPUT.innerHTML += "<p>" "Chips: " +_chips+ " Price: $3"</p>";
+    OUTPUT.innerHTML += "<p> "Drink: " +_drink+ " Price: $2.50"</p>";
 }
 
