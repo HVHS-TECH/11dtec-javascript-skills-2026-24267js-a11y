@@ -17,7 +17,9 @@ let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-
+function writeline() {
+  OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
+}
 
 OUTPUT.innerHTML = "<h1>ADDED BY JAVASCRIPT.</h1>";
 OUTPUT.innerHTML += "<p>" + "Hello " + username + ", welcome!</p>";
@@ -40,5 +42,5 @@ writeline("Welcome");
  Functions
 ***************************/ 
 function writeline() {
-  OUTPUT.innerHTML += "<p>" + message + "</p>";
+  OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
