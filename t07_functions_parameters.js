@@ -36,6 +36,7 @@ console.log("Running t07_functions_parameters.js");
 console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spend half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." );
 
 writeline("Welcome");
+writeline("Chocolate Bar: $4");
 
 
 /*************************** 
