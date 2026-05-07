@@ -48,6 +48,6 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += "<p>Chocolate Bar: " +_chocolatebar+ " Price:$4 </p>";
+    OUTPUT.innerHTML += "<p>Chocolate Bar: " +_product+ " Price:$4 </p>";
 }
 
