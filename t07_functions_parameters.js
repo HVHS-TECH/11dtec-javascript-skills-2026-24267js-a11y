@@ -37,7 +37,7 @@ console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old
 
 writeline("Welcome");
 
-displayProduct(Chocolate Bar: $4");
+displayProduct("Chocolate Bar", 4);
 
 
 /*************************** 
@@ -48,7 +48,7 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += " Chocolate Bar"+_product + _price + "$4" ;
+    OUTPUT.innerHTML += +_product + _price ;
 }
 
 
