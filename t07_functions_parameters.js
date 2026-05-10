@@ -48,6 +48,6 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += " +_product+ " + "+_price+ 
+    OUTPUT.innerHTML += _product + _price ;
 }
 
