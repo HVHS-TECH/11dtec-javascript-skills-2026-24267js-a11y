@@ -3,7 +3,7 @@
 Name of task: activate_via_button
 ****************************/
 
-const { start} = require("react");
+
 
 
 //Variables
@@ -56,6 +56,6 @@ function displayProduct(_product,_price) {
    
 }
 
-function start(_button) {
+function startie() {
 OUTPUT.innerHTML += "ghhyrth"
 }
