@@ -54,3 +54,4 @@ function displayProduct(_product,_price) {
    
 }
 
+<button onclick="start()">Start</button>
