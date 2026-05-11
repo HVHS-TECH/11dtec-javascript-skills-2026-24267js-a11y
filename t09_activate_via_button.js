@@ -1,6 +1,6 @@
 /* Paste your code from task 7 here*/
 /****************************
-Name of task: Functions_parameters
+Name of task: activate_via_button
 ****************************/
 
 
@@ -31,7 +31,7 @@ OUTPUT.innerHTML += "<p>" + "Since you are so rich...." + "</p>";
 OUTPUT.innerHTML += "<p>" + "CAN YOU BUY FRIED CHICKENNNNNNNNNNNNN?!" + "</p>";
 OUTPUT.innerHTML += "<p>" + "Hi " + username + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spent half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." + "</p>";
 
-console.log("Running t07_functions_parameters.js");
+console.log("Running t09_activate_via_button.js");
 
 console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spend half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." );
 
@@ -53,3 +53,4 @@ function displayProduct(_product,_price) {
     OUTPUT.innerHTML += "<p>" +_product + _price+ "$</p>" ;
    
 }
+
