@@ -56,6 +56,6 @@ function displayProduct(_product,_price) {
    
 }
 
-function start() {
+function start(_button) {
 OUTPUT.innerHTML += "grnhth"
 }
