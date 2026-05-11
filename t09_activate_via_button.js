@@ -3,6 +3,8 @@
 Name of task: activate_via_button
 ****************************/
 
+const { startTransition } = require("react");
+
 
 //Variables
 var username = "James";
@@ -54,4 +56,6 @@ function displayProduct(_product,_price) {
    
 }
 
-<button onclick="start()">Start</button>
+function start() {
+OUTPUT.innerHTML += " grnhth"
+}
