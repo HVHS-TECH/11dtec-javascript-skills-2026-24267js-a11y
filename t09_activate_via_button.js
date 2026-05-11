@@ -57,5 +57,5 @@ function displayProduct(_product,_price) {
 }
 
 function startie() {
-OUTPUT.innerHTML += "ghhyrth"
+OUTPUT.innerHTML += "Hi Angel"
 }
