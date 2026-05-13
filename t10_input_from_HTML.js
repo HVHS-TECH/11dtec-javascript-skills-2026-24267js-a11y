@@ -62,6 +62,7 @@ OUTPUT.innerHTML += "Hi Angel"
 
 function getFormInput(_userName){
 const NAME_FIELD = document.getElementById("nameField");
+console.log(NAME_FIELD)
 let username = NAME_FIELD.value
 OUTPUT.innerHTML = "<p>Your name is"+_userName+"</p>";
 }
