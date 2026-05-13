@@ -43,7 +43,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-
+getFormInput("Your Name is ");
 /*************************** 
  Functions
 ***************************/ 
@@ -60,8 +60,8 @@ function startie() {
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-<form onSubmit="return false;">
-    <label for="formName">Name:</label>
-    <input type="text" id="nameField" name="formName"></input>
-    <input type="submit" onClick="getFormInput()"></input>
-</form>
+function getFormInput(_userName){
+const NAME_FIELD = document.getElementById("nameField");
+let username = NAME_FIELD.value
+OUTPUT.innerHTML = "<p>Your name is"+_userName+"</p>";
+}
