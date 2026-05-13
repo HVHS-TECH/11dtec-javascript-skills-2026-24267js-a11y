@@ -63,4 +63,5 @@ OUTPUT.innerHTML += "Hi Angel"
 <form onSubmit="return false;">
     <label for="formName">Name:</label>
     <input type="text" id="nameField" name="formName"></input>
+    <input type="submit" onClick="getFormInput()"></input>
 </form>
