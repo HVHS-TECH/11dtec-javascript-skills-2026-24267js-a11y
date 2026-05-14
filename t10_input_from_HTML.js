@@ -59,7 +59,7 @@ OUTPUT.innerHTML += "Hi Angel"
 }
 
 function getFormInput(){
-let user = NAME_FIELD.value
+let username = NAME_FIELD.value;
 OUTPUT.innerHTML = "<p>Your name is"+ userName +"</p>";
 }
 
