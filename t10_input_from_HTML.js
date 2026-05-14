@@ -7,7 +7,7 @@ Name of task: input_from_HTML
 
 
 //Variables
-var username = "James";
+var username = "Alexander";
 var age = 26;
 
 var year = 2026;
@@ -50,7 +50,7 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += "<p>" +_product + _price+ "$</p>" ;
+    OUTPUT.innerHTML += "<p>" + product + price+ "$</p>" ;
    
 }
 
@@ -58,9 +58,7 @@ function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-function getFormInput(_userName){
-const NAME_FIELD = document.getElementById("nameField");
-console.log(NAME_FIELD)
+function getFormInput(){
 let user = NAME_FIELD.value
 OUTPUT.innerHTML = "<p>Your name is"+ userName +"</p>";
 }
