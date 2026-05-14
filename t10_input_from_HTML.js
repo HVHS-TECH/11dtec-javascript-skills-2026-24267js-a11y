@@ -64,3 +64,4 @@ console.log(NAME_FIELD)
 let user = NAME_FIELD.value
 OUTPUT.innerHTML = "<p>Your name is"+ userName +"</p>";
 }
+
