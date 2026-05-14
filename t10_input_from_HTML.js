@@ -21,8 +21,6 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const OUPUT =document.getElementById("nameField");
 
 
-
-
 /****************************
   Main code
 ****************************/
