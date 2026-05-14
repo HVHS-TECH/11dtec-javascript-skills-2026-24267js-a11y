@@ -41,7 +41,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput();
+getFormInput(username);
 /*************************** 
  Functions
 ***************************/ 
@@ -61,6 +61,6 @@ OUTPUT.innerHTML += "Hi Angel"
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 let username = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Welcome To The Page"+ username +"</p>";
+OUTPUT.innerHTML = "<p>Welcome to the page"+ username +"</p>";
 }
 
