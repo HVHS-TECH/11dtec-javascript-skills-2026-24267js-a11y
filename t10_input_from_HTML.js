@@ -41,7 +41,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput(NAME_FIELD);
+getFormInput();
 /*************************** 
  Functions
 ***************************/ 
@@ -50,7 +50,7 @@ function writeline() {
 }
 
 function displayProduct(_product,_price) {
-    OUTPUT.innerHTML += "<p>" + product + price+ "$</p>" ;
+    OUTPUT.innerHTML += "<p>" + _product + _price+ "$</p>" ;
    
 }
 
@@ -61,6 +61,7 @@ OUTPUT.innerHTML += "Hi Angel"
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 let username = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is"+ userName +"</p>";
+OUTPUT.innerHTML = "<p>Your name is"+userName +"</p>";
 }
 
+var
