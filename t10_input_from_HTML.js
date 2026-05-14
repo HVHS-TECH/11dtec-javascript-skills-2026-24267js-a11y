@@ -43,7 +43,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput("Your Name is any");
+getFormInput();
 /*************************** 
  Functions
 ***************************/ 
