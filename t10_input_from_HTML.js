@@ -56,7 +56,7 @@ function displayProduct(_product,_price) {
    
 }
 
-function startie() {
+function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
