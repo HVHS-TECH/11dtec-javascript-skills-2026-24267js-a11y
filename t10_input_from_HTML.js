@@ -18,7 +18,7 @@ let total = money / 2;
 let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-const OUPUT =document.getElementById("nameField");
+
 
 
 /****************************
@@ -59,6 +59,7 @@ OUTPUT.innerHTML += "Hi Angel"
 }
 
 function getFormInput(){
+const OUPUT = document.getElementById("nameField");
 let username = NAME_FIELD.value;
 OUTPUT.innerHTML = "<p>Your name is"+ userName +"</p>";
 }
