@@ -7,7 +7,7 @@ Name of task: input_from_HTML
 
 
 //Variables
-var username = "Alexander";
+var username = "Rosie";
 var age = 26;
 
 var year = 2026;
