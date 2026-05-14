@@ -18,7 +18,7 @@ let total = money / 2;
 let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
+const OUPUT =document.getElementById("nameField");
 
 
 
