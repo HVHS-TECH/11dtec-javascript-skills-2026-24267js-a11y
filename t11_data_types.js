@@ -41,7 +41,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput(username);
+getFormInput(age);
 
 /*************************** 
  Functions
@@ -61,7 +61,7 @@ OUTPUT.innerHTML += "Hi Angel"
 
 function getFormInput(){
 const AGE_FIELD = document.getElementById("ageField");
-let userAge = AGE_FIELD.value;
-OUTPUT.innerHTML = "<p>Your age is" +userAge+"<p>";
+let age = AGE_FIELD.value;
+OUTPUT.innerHTML = "<p>Your age is" +age+"<p>";
 }
 
