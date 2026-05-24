@@ -60,6 +60,6 @@ OUTPUT.innerHTML += "Hi Angel"
 }
 
 function getFormInput(){
-
+const AGE_FIELD = 
 }
 
