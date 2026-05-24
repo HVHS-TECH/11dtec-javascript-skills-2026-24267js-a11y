@@ -18,7 +18,7 @@ let total = money / 2;
 let equation = money / 2 + 3;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-const AGE_FIELD = document.getElementById("ageField");
+
 
 
 /****************************
@@ -62,6 +62,7 @@ OUTPUT.innerHTML += "Hi Angel"
 function getFormInput(){
 
 let age = AGE_FIELD.value;
+const AGE_FIELD = document.getElementById("ageField");
 OUTPUT.innerHTML = "<p>Your age is" +age+"<p>";
 }
 
