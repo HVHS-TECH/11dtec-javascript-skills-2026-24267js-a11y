@@ -59,4 +59,7 @@ function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-CONST
+function getFormInput(){
+
+}
+
