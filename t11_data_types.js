@@ -42,7 +42,7 @@ displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
 getFormInput(username);
-getFormInput(age);
+getInput(age);
 /*************************** 
  Functions
 ***************************/ 
@@ -59,8 +59,8 @@ function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-function getFormInput(){
-const AGE_FIELD = document.getElementById("nameField");
+function getInput(){
+const AGE_FIELD = document.getElementById("ageField");
 let age = AGE_FIELD.value;
 OUTPUT.innerHTML = "<p>Your Age Is" + age +"</p>";
 }
