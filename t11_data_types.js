@@ -41,7 +41,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput(age);
+getFormInput(AGE_FIELD);
 
 /*************************** 
  Functions
