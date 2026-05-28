@@ -75,4 +75,4 @@ OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
 
 if (money <= 4){
     OUTPUT.innerHTML += "<p>A Chocolate bar costs $4.You CAN buy a chocolate bar!</p>";
-}
+} else if (money )
