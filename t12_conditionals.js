@@ -73,3 +73,4 @@ let money = MONEY_FIELD.value;
 OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
 }
 
+var money = <=4;
