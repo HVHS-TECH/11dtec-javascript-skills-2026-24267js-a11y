@@ -72,3 +72,4 @@ console.log(MONEY_FIELD)
 let money = MONEY_FIELD.value; 
 OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
 }
+
