@@ -73,4 +73,6 @@ let money = MONEY_FIELD.value;
 OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
 }
 
-var money = <=4;
+if (money <= 4){
+    OUTPUT.innerHTML += "<p>A Chocolate bar costs $4.You CAN buy a chocolate bar!</p>";
+}
