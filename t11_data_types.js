@@ -42,6 +42,7 @@ displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
 getFormInput(age);
+getFormInput(money);
 /*************************** 
  Functions
 ***************************/ 
@@ -65,3 +66,9 @@ let age = AGE_FIELD.value;
 OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
 }
 
+function getFormInput(){
+const MONEY_FIELD = document.getElementById("moneyField");
+console.log(MONEY_FIELD)
+let money = MONEY_FIELD.value; 
+OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
+}
