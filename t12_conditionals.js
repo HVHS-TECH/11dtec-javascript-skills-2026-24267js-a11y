@@ -16,7 +16,8 @@ let ageAdd = age + 10;
 let money =1000;
 let total = money / 2;
 let equation = money / 2 + 3;
-var 
+var displayProduct = ChocolateBar = 4;
+
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
