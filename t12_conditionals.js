@@ -74,8 +74,9 @@ OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
 }
 
 
-if (money >= 4){
-    OUTPUT.innerHTML += "<p>A Chocolate bar costs $4.You CAN buy a chocolate bar!</p>";
-} else if (money < 4){
-    OUTPUT.innerHTML += "<p>A Chocolate bar costs $4. You CAN NOT buy a chocolate bar. :(</p>";
+if (_product > MONEY_FIELD) {
+  OUTPUT.innerHTML += "<p><br><br>Sorry, you don't have enough money to buy this product.<br><br><br></p>";
+}
+else if (_product == MONEY_FIELD) {
+  OUTPUT.innerHTML += "<p><br><br>You have just enough money to buy this product but you will have no money left.<br><br><br></p>";
 }
