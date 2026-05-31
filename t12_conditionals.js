@@ -17,7 +17,7 @@ let money =1000;
 let total = money / 2;
 let equation = money / 2 + 3;
 var displayProduct = ChocolateBar = 4;
-var moneyField = any; 
+var moneyField = 1000;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
