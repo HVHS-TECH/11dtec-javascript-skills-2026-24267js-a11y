@@ -70,13 +70,13 @@ function getFormInput(){
 const MONEY_FIELD = document.getElementById("moneyField");
 console.log(MONEY_FIELD)
 let money = MONEY_FIELD.value; 
-OUTPUT.innerHTML = "<p>You have" + money + "pocket money.<p>";
+OUTPUT.innerHTML = "<p><br><br><br>You have $" + money + " in pocket money.<br><br><br><p>";
 }
 
 
 if (displayProduct > money) {
-  OUTPUT.innerHTML += "<p><br><br>Sorry, you don't have enough money to buy this product.<br><br><br></p>";
+  console.log("<p><br><br>Sorry, you don't have enough money to buy this product.<br><br><br></p>");
 }
 else if (displayProduct == money) {
-  OUTPUT.innerHTML += "<p><br><br>You have just enough money to buy this product but you will have no money left.<br><br><br></p>";
+  console.log("<p><br><br>You have just enough money to buy this product but you will have no money left.<br><br><br></p>");
 }
