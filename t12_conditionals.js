@@ -43,7 +43,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput(Userage);
+getFormInput(age);
 getFormInput(money);
 /*************************** 
  Functions
@@ -64,8 +64,8 @@ OUTPUT.innerHTML += "Hi Angel"
 function getFormInput(){
 const AGE_FIELD = document.getElementById("ageField");
 console.log(AGE_FIELD)
-let Userage = AGE_FIELD.value; 
-OUTPUT.innerHTML = "<p>Your age is" + Userage + "years old.<p>";
+let age = AGE_FIELD.value; 
+OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
 }
 
 function getFormInput(){
