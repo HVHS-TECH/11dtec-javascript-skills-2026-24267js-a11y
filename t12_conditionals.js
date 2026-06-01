@@ -76,9 +76,6 @@ OUTPUT.innerHTML = "<p><br><br><br>You have $" + money + " in pocket money.<br><
 }
 
 
-if (displayProduct > moneyField) {
-  console.log("<p><br><br>Sorry, you don't have enough money to buy this product.<br><br><br></p>");
-}
-else if (displayProduct == moneyField) {
-  console.log("<p><br><br>You have just enough money to buy this product but you will have no money left.<br><br><br></p>");
+if (18 < age) {
+  console.log
 }
