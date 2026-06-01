@@ -76,6 +76,7 @@ OUTPUT.innerHTML = "<p><br><br><br>You have $" + money + " in pocket money.<br><
 }
 
 
+
 if (18 < age) {
   console.log("You are young");
 }
