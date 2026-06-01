@@ -43,7 +43,7 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getFormInput(age);
+getFormInput(Userage);
 getFormInput(money);
 /*************************** 
  Functions
@@ -64,8 +64,8 @@ OUTPUT.innerHTML += "Hi Angel"
 function getFormInput(){
 const AGE_FIELD = document.getElementById("ageField");
 console.log(AGE_FIELD)
-let age = AGE_FIELD.value; 
-OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
+let Userage = AGE_FIELD.value; 
+OUTPUT.innerHTML = "<p>Your age is" + Userage + "years old.<p>";
 }
 
 function getFormInput(){
@@ -80,7 +80,7 @@ OUTPUT.innerHTML = "<p><br><br><br>You have $" + money + " in pocket money.<br><
 if (18 < age) {
   console.log("You are young");
 }
-else if (18==age) {
+else if (18== age) {
   console.log("You are an adult!!");
 }
 else {
