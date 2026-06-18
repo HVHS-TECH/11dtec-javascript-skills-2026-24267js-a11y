@@ -90,8 +90,9 @@ let money = MONEY_FIELD.value;
 OUTPUT.innerHTML = "<p><br><br>You have $" + money + " in pocket money.<br><br><p>";
 }
 
-function calculateChange() {
-  
+function calculateChange(_money, _price) {
+const MONEY_FIELD = document.getElementById("moneyField");
+let money = number(MONEY_FIELD.value).tofixed(2);
 }
 
 
