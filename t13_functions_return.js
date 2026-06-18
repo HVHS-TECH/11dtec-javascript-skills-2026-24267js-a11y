@@ -70,7 +70,7 @@ function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-function getFormInput () {
+function getNameInput () {
   const NAME_FIELD = document.getElementById("nameField");
   let username = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is" + username + "</p>";
