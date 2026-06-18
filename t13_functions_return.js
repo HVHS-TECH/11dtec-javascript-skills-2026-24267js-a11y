@@ -96,7 +96,9 @@ let money = number(MONEY_FIELD.value).tofixed(2);
 OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you will get $" + (_money - _price).tofixed(2) + "change.</p>"
 }
 
-
+function worth(){
+  
+}
 
 
 if (18 < age) {
