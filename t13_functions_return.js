@@ -106,7 +106,10 @@ if (money=> 4){
   calculateChange("drinks", 2.50);
 }
 } else {
-OUTPUT.inner
+OUTPUT.innerHTML = "<p><br> A Chocolate bar costs $4, you can not afford a chocolate bar.<br></p>"
+}
+return money; {
+
 }
 
 
@@ -128,4 +131,5 @@ function start() {
   getusername();
   getage();
   getmoney();
+  afford();
 }
