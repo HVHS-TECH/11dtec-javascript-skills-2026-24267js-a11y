@@ -95,5 +95,9 @@ else {
 
 function start() {
     welcome();
-  
+  displayProduct("ChocolateBar", 4);
+  displayProduct("Chips", 3);
+  displayProduct("drinks", 2.50);
+  getusername();
+  getage
 }
