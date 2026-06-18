@@ -95,4 +95,5 @@ else {
 
 function start() {
     welcome();
+  
 }
