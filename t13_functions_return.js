@@ -90,7 +90,9 @@ let money = MONEY_FIELD.value;
 OUTPUT.innerHTML = "<p><br><br>You have $" + money + " in pocket money.<br><br><p>";
 }
 
-
+function calculateChange() {
+  
+}
 
 
 if (18 < age) {
