@@ -76,14 +76,14 @@ function getNameInput () {
   OUTPUT.innerHTML = "<p>Your name is" + username + "</p>";
 }
 
-function getAgeinput(){
+function getAgeInput(){
 const AGE_FIELD = document.getElementById("ageField");
 console.log(AGE_FIELD)
 let age = AGE_FIELD.value; 
 OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
 }
 
-function getMoneyinput(){
+function getMoneyInput(){
 const MONEY_FIELD = document.getElementById("moneyField");
 console.log(MONEY_FIELD)
 let money = MONEY_FIELD.value; 
