@@ -45,8 +45,8 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-displayWelcome(age);
-getFormInput(money);
+getAgeinput(age);
+getMoneyinput(money);
 getFormInput(username);
 
 /*************************** 
@@ -75,14 +75,14 @@ function getFormInput () {
   OUTPUT.innerHTML = "<p>Your name is" + username + "</p>";
 }
 
-function displayWelcome(){
+function getAgeinput(){
 const AGE_FIELD = document.getElementById("ageField");
 console.log(AGE_FIELD)
 let age = AGE_FIELD.value; 
 OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
 }
 
-function getFormInput(){
+function getMoneyinput(){
 const MONEY_FIELD = document.getElementById("moneyField");
 console.log(MONEY_FIELD)
 let money = MONEY_FIELD.value; 
