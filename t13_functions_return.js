@@ -47,12 +47,15 @@ displayProduct("Drink: ", 2.50);
 
 displayWelcome(age);
 getFormInput(money);
-
+getFormInput(username);
 
 /*************************** 
  Functions
 ***************************/ 
 
+function welcome() {
+  OUTPUT.innerHTML +="<h1>Welcome to the shop</h1>";
+}
 function writeline() {
   OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
@@ -64,6 +67,12 @@ function displayProduct(_product,_price) {
 
 function startie(){
 OUTPUT.innerHTML += "Hi Angel"
+}
+
+function getFormInput () {
+  const NAME_FIELD = document.getElementById("nameField");
+  let username = NAME_FIELD.value;
+  OUTPUT.innerHTML = "<p>Your name is" + username + "</p>";
 }
 
 function displayWelcome(){
