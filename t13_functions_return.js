@@ -97,6 +97,8 @@ OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you w
 }
 
 
+
+
 if (18 < age) {
   console.log("You are young");
 }
