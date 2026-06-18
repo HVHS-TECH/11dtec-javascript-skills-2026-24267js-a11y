@@ -99,5 +99,6 @@ function start() {
   displayProduct("Chips", 3);
   displayProduct("drinks", 2.50);
   getusername();
-  getage
+  getage();
+  getmoney();
 }
