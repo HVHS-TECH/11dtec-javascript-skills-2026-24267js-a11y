@@ -93,7 +93,7 @@ OUTPUT.innerHTML = "<p><br><br>You have $" + money + " in pocket money.<br><br><
 function calculateChange(_money, _price) {
 const MONEY_FIELD = document.getElementById("moneyField");
 let money = number(MONEY_FIELD.value).tofixed(2);
-OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you will get $" + (_money - 
+OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you will get $" + (_money - _price).tofixed(2) + "change.</p>"
 }
 
 
