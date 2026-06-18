@@ -45,9 +45,9 @@ displayProduct("Chocolate Bar: ", 4);
 displayProduct("Chips: ", 3);
 displayProduct("Drink: ", 2.50);
 
-getAgeinput(age);
+
 getMoneyinput(money);
-getFormInput(username);
+
 
 /*************************** 
  Functions
