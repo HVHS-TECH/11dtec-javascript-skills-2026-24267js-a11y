@@ -97,7 +97,16 @@ OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you w
 }
 
 function worth(){
-  
+const MONEY_FIELD = document.getElementById("MoneyField");
+let money = number(MONEY_FIELD.value);
+if (money=> 4){
+  OUTPUT.innerHTML = "<p><br> A Chocolate bar costs $4, You can afford one!<br></p>"
+  calculateChange("Chocolate Bar", 4);
+  calculateChange("Chips", 3);
+  calculateChange("drinks", 2.50);
+}
+} else {
+OUTPUT.inner
 }
 
 
