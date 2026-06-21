@@ -119,11 +119,11 @@ function getChocInput() {
   let chocInput = Number(CHOC_FIELD.value);
 
   if (chocInput < 0) {
-    OUTPUT.innerHTML = "<p>WOW! You really don't like chocolate!</p>";
+    OUTPUT.innerHTML += "<p>WOW! You really don't like chocolate!</p>";
   } else if (chocInput >= 3) {
     OUTPUT.innerHTML += "<p>" + chocPreference[chocInput] + "</p>";
   } else {
-    OUTPUT.innerHTML = "<p>You really like chocolate!</p>";
+    OUTPUT.innerHTML += "<p>You really like chocolate!</p>";
   }
 }
 
