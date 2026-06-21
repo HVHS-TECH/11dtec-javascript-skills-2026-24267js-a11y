@@ -96,21 +96,24 @@ let money = number(MONEY_FIELD.value).tofixed(2);
 OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you will get $" + (_money - _price).tofixed(2) + "change.</p>"
 }
 
-function worth(){
-const MONEY_FIELD = document.getElementById("MoneyField");
-let money = number(MONEY_FIELD.value);
-if (money=> 4){
-  OUTPUT.innerHTML = "<p><br> A Chocolate bar costs $4, You can afford one!<br></p>"
-  calculateChange("Chocolate Bar", 4);
-  calculateChange("Chips", 3);
-  calculateChange("drinks", 2.50);
-}
-} else {
-OUTPUT.innerHTML = "<p><br> A Chocolate bar costs $4, you can not afford a chocolate bar.<br></p>"
-}
-return money; {
+function worth() {
+  const MONEY_FIELD = document.getElementById("MoneyField");
+  const OUTPUT = document.getElementById("output"); // Make sure this exists in HTML
 
+  let money = Number(MONEY_FIELD.value);
+
+  if (money >= 4) {
+    OUTPUT.innerHTML = "<p><br>A chocolate bar costs $4. You can afford one!<br></p>";
+    calculateChange("Chocolate Bar", 4);
+    calculateChange("Chips", 3);
+    calculateChange("Drinks", 2.50);
+  } else {
+    OUTPUT.innerHTML = "<p><br>A chocolate bar costs $4. You cannot afford one.<br></p>";
+  }
+
+  return money;
 }
+
 
 
 if (18 < age) {
