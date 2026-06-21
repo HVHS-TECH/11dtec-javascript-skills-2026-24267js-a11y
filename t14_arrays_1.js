@@ -119,7 +119,8 @@ function getChocInput() {
   let chocInput = Number(CHOC_FIELD.value).toFixed(0);
   if (chocInput < 0) {
     OUTPUT.innerHTML = "<p>WOW! You really don't like chocolate!</p>";
-  }
+  } else if (chocInput >= 3) {
+    
 }
 
 if (18 < age) {
