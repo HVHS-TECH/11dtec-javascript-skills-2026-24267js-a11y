@@ -116,13 +116,14 @@ let chocPreference = ["You Loathe Chocolate", "Chocolate is meh...", "Chocolate 
 
 function getChocInput() {
   const CHOC_FIELD = document.getElementById("chocField");
-  let chocInput = Number(CHOC_FIELD.value).toFixed(0);
+  let chocInput = Number(CHOC_FIELD.value);
+
   if (chocInput < 0) {
     OUTPUT.innerHTML = "<p>WOW! You really don't like chocolate!</p>";
   } else if (chocInput >= 3) {
-    OUTPUT.innerHTML += "<p>" + chocPreference[chocInput] + "</p>";
-  } else  {
-    OUTPUT.innerHTML = "<p>" you really like chocolate! "</p>";
+    OUTPUT.innerHTML += "<p>" + chocInput[chocInput] + "</p>";
+  } else {
+    OUTPUT.innerHTML = "<p>You really like chocolate!</p>";
   }
 }
 
