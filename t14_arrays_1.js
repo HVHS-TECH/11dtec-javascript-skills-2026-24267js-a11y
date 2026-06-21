@@ -120,7 +120,10 @@ function getChocInput() {
   if (chocInput < 0) {
     OUTPUT.innerHTML = "<p>WOW! You really don't like chocolate!</p>";
   } else if (chocInput >= 3) {
-    OUTPUT.innerHTML = 
+    OUTPUT.innerHTML += "<p>" + chocPreference[chocInput] + "</p>";
+  } else  {
+    OUTPUT.innerHTML = "<p>" + chocPreference[chocInput] + "</p>";
+  }
 }
 
 if (18 < age) {
