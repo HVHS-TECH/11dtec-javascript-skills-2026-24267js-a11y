@@ -98,7 +98,7 @@ OUTPUT.innerHTML = "<p>You have $" + money + ". If you buy a "+ _name + ", you w
 
 function worth() {
   const MONEY_FIELD = document.getElementById("MoneyField");
-  const OUTPUT = document.getElementById("output"); // Make sure this exists in HTML
+  const OUTPUT = document.getElementById("spaceForJavaScriptOutput"); 
 
   let money = Number(MONEY_FIELD.value);
 
