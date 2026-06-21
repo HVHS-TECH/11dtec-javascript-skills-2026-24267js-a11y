@@ -115,6 +115,8 @@ function worth() {
 let chocPreference = ["You Loathe Chocolate", "Chocolate is meh...", "Chocolate is pretty good!", "Chocolate is the best thing EVER!!!"];
 
 function getChocInput() {
+  const CHOC_FIELD = document.getElementById("chocField");
+  let chocInput = Number(CHOC_FIELD.value).toFixed(0);
   
 }
 
