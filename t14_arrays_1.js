@@ -124,6 +124,7 @@ else {
   console.log("You are ancient");
 }
 
+
 function start() {
     welcome();
   displayProduct("ChocolateBar", 4);
