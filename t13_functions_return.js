@@ -70,24 +70,22 @@ function startie(){
 OUTPUT.innerHTML += "Hi Angel"
 }
 
-function getNameInput () {
+function getNameInput() {
   const NAME_FIELD = document.getElementById("nameField");
   let username = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is" + username + "</p>";
+  OUTPUT.innerHTML = "<p>Your name is " + username + "</p>";
 }
 
-function getAgeInput(){
-const AGE_FIELD = document.getElementById("ageField");
-console.log(AGE_FIELD)
-let age = AGE_FIELD.value; 
-OUTPUT.innerHTML = "<p>Your age is" + age + "years old.<p>";
+function getAgeInput() {
+  const AGE_FIELD = document.getElementById("ageField");
+  let age = AGE_FIELD.value;
+  OUTPUT.innerHTML = "<p>Your age is " + age + " years old.</p>";
 }
 
-function getMoneyInput(){
-const MONEY_FIELD = document.getElementById("moneyField");
-console.log(MONEY_FIELD)
-let money = MONEY_FIELD.value; 
-OUTPUT.innerHTML = "<p><br><br>You have $" + money + " in pocket money.<br><br><p>";
+function getMoneyInput() {
+  const MONEY_FIELD = document.getElementById("MoneyField");
+  let money = MONEY_FIELD.value;
+  OUTPUT.innerHTML = "<p>You have $" + money + " in pocket money.</p>";
 }
 
 function calculateChange(_money, _price) {
