@@ -117,7 +117,9 @@ let chocPreference = ["You Loathe Chocolate", "Chocolate is meh...", "Chocolate 
 function getChocInput() {
   const CHOC_FIELD = document.getElementById("chocField");
   let chocInput = Number(CHOC_FIELD.value).toFixed(0);
-  
+  if (chocInput < 0) {
+    OUTPUT.innerHTML = "<p>WOW! You really don't like chocolate!</p>";
+  }
 }
 
 if (18 < age) {
