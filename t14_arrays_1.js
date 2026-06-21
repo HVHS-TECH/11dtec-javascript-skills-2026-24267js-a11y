@@ -112,7 +112,11 @@ function worth() {
   return money;
 }
 
+let chocPreference = ["You Loathe Chocolate", "Chocolate is meh...", "Chocolate is pretty good!", "Chocolate is the best thing EVER!!!"];
 
+function getChocInput() {
+  
+}
 
 if (18 < age) {
   console.log("You are young");
