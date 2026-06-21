@@ -1,6 +1,6 @@
 /* Paste your code from the last task */
 /****************************
-Name of task: functions_returns.js
+Name of task: arrays_1.js
 ****************************/
 
 
@@ -35,7 +35,7 @@ OUTPUT.innerHTML += "<p>" + "Since you are so rich...." + "</p>";
 OUTPUT.innerHTML += "<p>" + "CAN YOU BUY FRIED CHICKENNNNNNNNNNNNN?!" + "</p>";
 OUTPUT.innerHTML += "<p>" + "Hi " + username + ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spent half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." + "</p>";
 
-console.log("Running t13_functions_return.js");
+console.log("Running t14_arrays_1.js");
 
 console.log("Hi " +username+ ", as of " + year + " you are " + age + " years old. You were born in " + dateofbirth + ". In 10 years you will be " + ageAdd + " and you have $" + money + " dollars. You spend half of your money, you now have $" + total + " dollars. Then you get $3, now you have $" + equation + " dollars." );
 
