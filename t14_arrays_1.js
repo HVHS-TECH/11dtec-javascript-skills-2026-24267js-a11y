@@ -122,7 +122,7 @@ function getChocInput() {
   } else if (chocInput >= 3) {
     OUTPUT.innerHTML += "<p>" + chocPreference[chocInput] + "</p>";
   } else  {
-    OUTPUT.innerHTML = "<p>" + chocPreference[chocInput] + "</p>";
+    OUTPUT.innerHTML = "<p>" you really like chocolate! "</p>";
   }
 }
 
@@ -146,4 +146,5 @@ function start() {
   getage();
   getmoney();
   afford();
+  getchoc();
 }
