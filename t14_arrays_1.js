@@ -143,9 +143,9 @@ function start() {
   displayProduct("ChocolateBar", 4);
   displayProduct("Chips", 3);
   displayProduct("drinks", 2.50);
-  getusername();
-  getage();
-  getmoney();
-  afford();
-  getchoc();
+  getNameInput();
+  getAgeInput();
+  getMoneyInput();
+  worth();
+  getChocInput();
 }
