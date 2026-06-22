@@ -118,7 +118,7 @@ function getChocInput() {
   const CHOC_FIELD = document.getElementById("chocField");
   let chocInput = Number(CHOC_FIELD.value);
 
-  if (chocInput < 0) {
+  if (chocInput <= 0) {
     OUTPUT.innerHTML += "<p>WOW! You really don't like chocolate!</p>";
   } else if (chocInput >= 3) {
     OUTPUT.innerHTML += "<p>" + chocPreference[chocInput] + "</p>";
