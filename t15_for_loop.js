@@ -3,7 +3,6 @@ console.log("Running t15_for_loop.js");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-const OUTPUT = document.getElementById("output");
 
 function getBottleInput() {
   const BOTTLE_FIELD = document.getElementById("bottleField");
