@@ -3,6 +3,14 @@ console.log("Running t15_for_loop.js");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-function getBottleInput() {
-    let bottleamount = Number(BOTTLE_FIELD.value).toFixed(0);
-    for(let i = 1; i <= bottleamount; i--) 
+console.log("starting loop");
+for (let count = 0; count < 10; count++) {
+    console.log("current count: " + count);
+}
+
+console.log("Loop finished");
+
+console.log("100 bottles of milk :");
+for (let bottle = 100; bottle > 90; bottle--) {
+    console.log(bottle + " bottles of milk on the wall");
+}
