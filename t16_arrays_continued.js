@@ -136,7 +136,7 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p> You Have added" + choice + "to the list";
 }
 
-function itemlist(){
+function Itemlist(){
     OUTPUT.innerHTML += "<br>These Are The Items In Your Shopping List: <br>";
     for(i=0; i<itemArray.length; i++){
         OUTPUT.innerHTML += i + ":" + itemArray[i] + "<br>" 
@@ -165,4 +165,6 @@ function start() {
   getMoneyInput();
   worth();
   getChocInput();
+  getFormInput();
+  Itemlist();
 }
