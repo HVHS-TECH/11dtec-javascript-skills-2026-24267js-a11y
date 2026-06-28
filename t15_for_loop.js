@@ -3,6 +3,16 @@ console.log("Running t15_for_loop.js");
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+const OUTPUT = document.getElementById("output");
+
+function getBottleInput() {
+  const BOTTLE_FIELD = document.getElementById("bottleField");
+  let bottles = Number(BOTTLE_FIELD.value);
+
+  OUTPUT.innerHTML = "<p>You chose " + bottles + " bottles of milk.</p>";
+}
+
+
 console.log("starting loop");
 for (let count = 0; count < 10; count++) {
     console.log("current count: " + count);
