@@ -27,6 +27,45 @@
 
   </div>
 
+  <div id="output">
+   <button onclick="start()">START</button>
+<form onsubmit="return false;"></form>
+<form onsubmit="return false;"></form>
+<form onsubmit="return false;"></form>
+<form onsubmit="return false;"></form>
+
+
+<form onsubmit="return false;">
+  <label for="nameField">Name:</label>
+  <input type="text" id="nameField" name="formName">
+  <input type="submit" onclick="getNameInput()">
+</form>
+    
+   <form onsubmit="return false;">
+  <label for="ageField">Age:</label>
+  <input type="text" id="ageField" name="formAge">
+  <input type="submit" onclick="getAgeInput()">
+</form>
+    
+    <form onsubmit="return false">
+  <label for="MoneyField">Pocket Money:</label>
+  <input type="text" id="MoneyField" name="formMoney">
+  <input type="submit" onclick="getMoneyInput()">
+</form>
+    
+    <form onsubmit="return false;">
+    <label for="formchoc">On A Scale of 0-3, How Much Do You Like Chocolate?:</label>
+    <input type="text" id="chocField" name="formChoc">
+    <input type="submit" onclick="getChocInput()">
+    </form>
+</div>
+
+
+<br><label for="Uitem">
+  <input type="text" id="Uitem" placeholder="Item">
+  <input type="button" onclick="getFormInput()" value="submit">
+  <input type="button" onclick="Itemlist()" value="YourList">
+</label>
 
   <script src="../t16_arrays_continued.js"></script>
 
